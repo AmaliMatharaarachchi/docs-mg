@@ -3,19 +3,19 @@
 !!! note
     This is only applicable if you wish to import your APIs from WSO2 API Manager.
 
-It is possible to create a Microgateway distribution for a group of APIs that exist in WSO2 API Manager (WSO2 API-M), by simply importing the group of APIs based on a preferred Microgateway label, which has been assigned to the group of APIs in WSO2 API Manager. Similarly, you can also use a Microgateway label to import a single published API from WSO2 API Manager as well if required.
+It is possible to create a Microgateway distribution for a group of APIs that exist in WSO2 API Manager, by simply importing the group of APIs based on a preferred Microgateway label, which has been assigned to the group of APIs in WSO2 API Manager. Similarly, you can also use a Microgateway label to import a single published API from WSO2 API Manager as well if required.
 
 Follow the instructions below to create a Microgateway distribution for a group of APIs that you have imported from WSO2 API Manager.
 
 ### Step 1 - Follow the installation prerequisites
 
-Make sure to carry out all the [installation prerequisites({{base_path}}/install-and-setup/install-on-vm/).
+Make sure to carry out all the [installation prerequisites](/install-and-setup/install-on-vm/).
 
 ### Step 2 - Assign an API to an API Microgateway
 
 Create and attach a Microgateway to an API. For more information, see one of the following links based on the WSO2 API Manager version that you are using.
 
--   Follow the instructions in the [Grouping APIs with Microgateway Labels](https://apim.docs.wso2.com/en/latest/Learn/APIMicrogateway/grouping-apis-with-labels/) page in the **WSO2 API Manager 3.0.0** documentation.
+-   Follow the instructions in the [Grouping APIs with Microgateway Labels](https://apim.docs.wso2.com/en/latest/Learn/APIMicrogateway/grouping-apis-with-labels/) page in the WSO2 API Manager 3.2.0 documentation.
 -   Follow the instructions under the [Creating and attaching a Microgateway to an API](https://docs.wso2.com/display/AM260/Grouping+APIs+with+Labels#GroupingAPIswithLabels-CreatingandattachingaMicrogatewaytoanAPI) section in the **WSO2 API Manager 2.6.0** documentation.
 
 ### Step 3 - Generate a Microgateway project
